@@ -11,9 +11,14 @@ background-color: #1F2937;
 font-family:Arial, Helvetica, sans-serif;
 
 }
+.headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
 .header-ul{
 padding: 12px;
 }
+
 
 .firstdiv{
     display: flex;
