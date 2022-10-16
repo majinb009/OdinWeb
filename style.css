@@ -52,10 +52,12 @@ font-family:Arial, Helvetica, sans-serif;
     border-radius: 7px;
 }
 .seconddiv{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-
+    align-items: center;
+    width: 60%;
+    margin: auto;
 }
 .seconddiv .seconddivul img{
     width: 100px;
@@ -86,7 +88,11 @@ font-family:Arial, Helvetica, sans-serif;
 }
 .seconddivul{
     display: flex;
-   
+    gap: 80px;
     list-style-type: none;
+}
+.seconddiv-content{
+    width: 150px;
     
+   
 }
