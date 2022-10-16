@@ -16,9 +16,8 @@ font-family:Arial, Helvetica, sans-serif;
     color: #f9faf8;
 }
 .header-ul{
-padding: 12px;
+    padding: 12px;
 }
-
 
 .firstdiv{
     display: flex;
@@ -53,7 +52,14 @@ padding: 12px;
     border-radius: 7px;
 }
 .seconddiv{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
 
+}
+.seconddiv .seconddivul img{
+    width: 100px;
+    height: 100px;
 }
 .items{
 
@@ -67,13 +73,17 @@ padding: 12px;
 .footer{
 
 }
-a{
+.header a{
     color: white;
     text-decoration: none;
 }
-ul *{
+.headerul *{
    
     display: inline;
     color: white;
     padding: 10px;
+}
+.seconddivul{
+    display: flex;
+    text-decoration: none;
 }
