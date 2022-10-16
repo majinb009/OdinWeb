@@ -7,30 +7,30 @@ body{
 .header{  
 display: flex;
 justify-content: space-around;
+margin:0;
+padding:0;
 background-color: #1F2937;
 font-family:Arial, Helvetica, sans-serif;
 
 }
-
 .header-ul{
-display: inline;
-margin: 0;
 padding: 12px;
 }
+
 .firstdiv{
     display: flex;
-    flex:1;
-    justify-content: center;
     background-color:#1F2937;
     padding: 50px;
-    
+    justify-content: center;
 }
 .firstdiv-right{
  display: block;
- width: 500px;
- 
+ width: 400px;
+ padding: 0 50px;
+ margin: 0;
 }
 .Title{
+    margin: 0;
     font-size: 48px;
     color:#F9FaF8;
 }
